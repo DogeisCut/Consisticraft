@@ -1,5 +1,6 @@
 package com.rickisparks.consisticraft;
 
+import com.rickisparks.consisticraft.block.ModBlocks;
 import com.rickisparks.consisticraft.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,6 +24,7 @@ public class Consisticraft {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 
