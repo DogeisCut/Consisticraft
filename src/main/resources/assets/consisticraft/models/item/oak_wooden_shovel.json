@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "consisticraft:item/stone_tools/wooden_tools/oak_wooden_shovel"
+    "layer0": "consisticraft:item/wooden_tools/oak_wooden_shovel"
   }
 }
