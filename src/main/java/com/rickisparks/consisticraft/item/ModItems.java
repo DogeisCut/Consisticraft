@@ -14,11 +14,11 @@ public class ModItems {
     public static final RegistryObject<Item> BEDROCK_SWORD = ITEMS.register("bedrock_sword",
             () -> new SwordItem(ModTiers.BEDROCK, 2, 3f,
                     new Item.Properties().tab(ModCreativeModeTab.CONSISTICRAFT_TAB)));
-    public static final RegistryObject<Item> BEDROCK_PICKAXE = ITEMS.register("bedrock_pickaxe",
-            () -> new PickaxeItem(ModTiers.BEDROCK, 2, 3f,
-                    new Item.Properties().tab(ModCreativeModeTab.CONSISTICRAFT_TAB)));
     public static final RegistryObject<Item> BEDROCK_SHOVEL = ITEMS.register("bedrock_shovel",
             () -> new ShovelItem(ModTiers.BEDROCK, 2, 3f,
+                    new Item.Properties().tab(ModCreativeModeTab.CONSISTICRAFT_TAB)));
+    public static final RegistryObject<Item> BEDROCK_PICKAXE = ITEMS.register("bedrock_pickaxe",
+            () -> new PickaxeItem(ModTiers.BEDROCK, 2, 3f,
                     new Item.Properties().tab(ModCreativeModeTab.CONSISTICRAFT_TAB)));
     public static final RegistryObject<Item> BEDROCK_AXE = ITEMS.register("bedrock_axe",
             () -> new AxeItem(ModTiers.BEDROCK, 4, -2f,
@@ -26,6 +26,39 @@ public class ModItems {
     public static final RegistryObject<Item> BEDROCK_HOE = ITEMS.register("bedrock_hoe",
             () -> new HoeItem(ModTiers.BEDROCK, 2, 3f,
                     new Item.Properties().tab(ModCreativeModeTab.CONSISTICRAFT_TAB)));
+
+    public static final RegistryObject<Item> STONE_SWORD = ITEMS.register("stone_sword",
+            () -> new SwordItem(Tiers.STONE, 3, -2.4F,
+                    new Item.Properties().tab(ModCreativeModeTab.CONSISTICRAFT_TAB)));
+    public static final RegistryObject<Item> STONE_SHOVEL = ITEMS.register("stone_shovel",
+            () -> new ShovelItem(Tiers.STONE, 1.5F, -3.0F,
+                    new Item.Properties().tab(ModCreativeModeTab.CONSISTICRAFT_TAB)));
+    public static final RegistryObject<Item> STONE_PICKAXE = ITEMS.register("stone_pickaxe",
+            () -> new PickaxeItem(Tiers.STONE, 1, -2.8F,
+                    new Item.Properties().tab(ModCreativeModeTab.CONSISTICRAFT_TAB)));
+    public static final RegistryObject<Item> STONE_AXE = ITEMS.register("stone_axe",
+            () -> new AxeItem(Tiers.STONE, 7.0F, -3.2F,
+                    new Item.Properties().tab(ModCreativeModeTab.CONSISTICRAFT_TAB)));
+    public static final RegistryObject<Item> STONE_HOE = ITEMS.register("stone_hoe",
+            () -> new HoeItem(Tiers.STONE, -1, -2.0F,
+                    new Item.Properties().tab(ModCreativeModeTab.CONSISTICRAFT_TAB)));
+
+    public static final RegistryObject<Item> DIORITE_SWORD = ITEMS.register("diorite_sword",
+            () -> new SwordItem(Tiers.STONE, 3, -2.4F,
+                    new Item.Properties().tab(ModCreativeModeTab.CONSISTICRAFT_TAB)));
+    public static final RegistryObject<Item> DIORITE_SHOVEL = ITEMS.register("diorite_shovel",
+            () -> new ShovelItem(Tiers.STONE, 1.5F, -3.0F,
+                    new Item.Properties().tab(ModCreativeModeTab.CONSISTICRAFT_TAB)));
+    public static final RegistryObject<Item> DIORITE_PICKAXE = ITEMS.register("diorite_pickaxe",
+            () -> new PickaxeItem(Tiers.STONE, 1, -2.8F,
+                    new Item.Properties().tab(ModCreativeModeTab.CONSISTICRAFT_TAB)));
+    public static final RegistryObject<Item> DIORITE_AXE = ITEMS.register("diorite_axe",
+            () -> new AxeItem(Tiers.STONE, 7.0F, -3.2F,
+                    new Item.Properties().tab(ModCreativeModeTab.CONSISTICRAFT_TAB)));
+    public static final RegistryObject<Item> DIORITE_HOE = ITEMS.register("diorite_hoe",
+            () -> new HoeItem(Tiers.STONE, -1, -2.0F,
+                    new Item.Properties().tab(ModCreativeModeTab.CONSISTICRAFT_TAB)));
+
 
 
 

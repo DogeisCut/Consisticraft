@@ -7,6 +7,6 @@ import net.minecraftforge.common.Tags;
 
 public class ModTiers {
     public static final ForgeTier BEDROCK = new ForgeTier(0,-1,0.5f,
-            1f,9999, Tags.Blocks.NEEDS_GOLD_TOOL,
+            1f, 100, Tags.Blocks.NEEDS_GOLD_TOOL,
             () -> Ingredient.of(Items.BEDROCK));
 }

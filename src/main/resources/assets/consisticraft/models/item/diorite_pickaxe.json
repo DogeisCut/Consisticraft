@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "consisticraft:item/stone_tools/diorite_pickaxe"
+  }
+}
