@@ -5,6 +5,25 @@
   "item.consisticraft.bedrock_shovel": "Bedrock Shovel",
   "item.consisticraft.bedrock_hoe": "Bedrock Hoe",
 
+  "item.consisticraft.stone_pickaxe": "Stone Pickaxe",
+  "item.consisticraft.stone_axe": "Stone Axe",
+  "item.consisticraft.stone_sword": "Stone Sword",
+  "item.consisticraft.stone_shovel": "Stone Shovel",
+  "item.consisticraft.stone_hoe": "Stone Hoe",
+
+  "item.consisticraft.diorite_pickaxe": "Diorite Pickaxe",
+  "item.consisticraft.diorite_axe": "Diorite Axe",
+  "item.consisticraft.diorite_sword": "Diorite Sword",
+  "item.consisticraft.diorite_shovel": "Diorite Shovel",
+  "item.consisticraft.diorite_hoe": "Diorite Hoe",
+
+  "item.consisticraft.oak_wooden_pickaxe": "Oak Pickaxe",
+  "item.consisticraft.oak_wooden_axe": "Oak Axe",
+  "item.consisticraft.oak_wooden_sword": "Oak Sword",
+  "item.consisticraft.oak_wooden_shovel": "Oak Shovel",
+  "item.consisticraft.oak_wooden_hoe": "Oak Hoe",
+
+
   "block.consisticraft.framed_cobblestone": "Framed Cobblestone",
 
   "itemGroup.consisticraftTab": "Consisticraft"
