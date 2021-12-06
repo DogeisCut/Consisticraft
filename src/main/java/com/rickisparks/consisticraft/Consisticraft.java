@@ -1,5 +1,6 @@
 package com.rickisparks.consisticraft;
 
+import com.rickisparks.consisticraft.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -12,13 +13,16 @@ import org.apache.logging.log4j.Logger;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Consisticraft.MOD_ID)
 public class Consisticraft {
+    public static final String MOD_ID = "consisticraft";
+
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
-    public static final String MOD_ID = "consisticraft";
 
     public Consisticraft() {
 
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(eventBus);
 
         eventBus.addListener(this::setup);
 
