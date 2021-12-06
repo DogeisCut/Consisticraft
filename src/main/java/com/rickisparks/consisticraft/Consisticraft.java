@@ -23,8 +23,8 @@ public class Consisticraft {
 
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+        ModItems.register(eventBus);
 
         eventBus.addListener(this::setup);
 
