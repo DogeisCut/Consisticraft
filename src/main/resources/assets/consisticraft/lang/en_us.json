@@ -1,5 +1,10 @@
 {
   "item.consisticraft.bedrock_pickaxe": "Bedrock Pickaxe",
+  "item.consisticraft.bedrock_axe": "Bedrock Axe",
+  "item.consisticraft.bedrock_sword": "Bedrock Sword",
+  "item.consisticraft.bedrock_shovel": "Bedrock Shovel",
+  "item.consisticraft.bedrock_hoe": "Bedrock Hoe",
+
   "block.consisticraft.framed_cobblestone": "Framed Cobblestone",
 
   "itemGroup.consisticraftTab": "Consisticraft"
